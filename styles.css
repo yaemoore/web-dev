@@ -1,0 +1,15 @@
+/*this is a comment for css*/
+
+body {
+  
+}
+
+a {
+  color: black;
+  font-weight: bold
+}
+
+a:hover {
+  color: blue
+}
+
