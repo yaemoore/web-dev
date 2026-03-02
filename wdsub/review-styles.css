@@ -1,0 +1,23 @@
+body {
+  margin:0em;
+  font-size:16px;
+  font-family: 'barlow condensed', sans-serif;
+  background-color: #109331
+}
+
+h1, h2, h3 {
+  font-family: oswald;
+  font-size: 1.8rem
+}
+
+div.rev {
+  background-color: #1ae64d;
+  margin-left:8em;
+  margin-right:8em;
+  padding:.5em;
+  padding-left:2em;
+  padding-right:2em;
+  border-radius:2em;
+  border:solid .5em #0C6A23
+}
+
