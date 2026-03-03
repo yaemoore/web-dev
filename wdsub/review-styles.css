@@ -21,3 +21,13 @@ div.rev {
   border:solid .5em #0C6A23
 }
 
+span a{
+  color: #0c3a23;
+  font-size: 115%;
+  text-decoration: none
+}
+
+span a:hover{
+  color:blue
+}
+
