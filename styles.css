@@ -1,7 +1,7 @@
 /*this is a comment for css*/
 
 body {
-  
+  margin:0px
 }
 
 #back{
@@ -9,7 +9,6 @@ body {
   z-index: -1;
   width: 100vw;
   height: 100vh;
-  margin:0px;
   
 }
 
