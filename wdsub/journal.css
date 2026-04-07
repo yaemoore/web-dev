@@ -1,0 +1,181 @@
+
+body{
+  margin: 0px;
+}
+
+h1 {
+  width: 50%;
+  text-align: center;
+  
+}
+
+#title {
+  background-color:white;
+  width:100vw;
+  height: 60px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: .5em
+  
+}
+
+#nav-bar{
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  border-bottom: darkgray solid 3px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  
+}
+
+a{
+  color: black;
+  font-size: 150%
+}
+
+.nav-div{ 
+  text-align: center;
+  flex-grow: 1;
+  position: relative;
+  top: 0px;
+  border-radius: 7px
+}
+
+div.spacer{
+  flex-grow: 0;
+  width 0px;
+  margin: 0px;
+  padding: 0px;
+  border: 1.5px solid black;
+}
+
+.nav-div a{
+  display: inline-block;
+  width: 100%;
+}
+
+.nav-div ul{
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  padding-left: 0px;
+  width: 100%;
+  margin:0px;
+  background-color: white;
+  border: solid grey 3px;
+  border-radius: 10px;
+}
+
+.nav-div:hover {
+  background-color: darkgrey;
+  
+}
+
+.nav-div:hover a{
+  color: black;
+}
+
+.nav-div:hover ul{
+  display: block;
+}
+
+
+#content{
+  margin: 0px 10em;
+  background-color:white;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top: 1em;
+}
+
+#content h2{
+  text-align: center;
+}
+
+#bimg{
+ width: 100vw;
+ height: 100vh;
+ z-index: -1;
+ position: fixed;
+ top: 0px;
+ z-index: -999999
+}
+
+#footer{
+  background-color: white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0px;
+  border-top: darkgrey solid 5px;
+  min-height: 100px
+}
+ 
+
+#leftfoot{
+  float: left;
+  margin-left: 40px;
+  text-align: right
+}
+
+#rightfoot{
+  float: right;
+  margin-right: 40px;
+  text-align: left
+}
+
+#hrbutnot{
+  border: black solid 2.5px;
+}
+
+#raccooncity{
+  float: left;
+  border: black solid 2px;
+  padding: 1em;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#gonereducedtoatoms{
+  float: left;
+  border: solid black 2px;
+  padding: 1em;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#idkatp{
+  float: right;
+  border: solid black 2px;
+  padding: 1em;
+  text-align: center;
+  margin-left: 10px
+}
+
+#idkatp2{
+  width:320px;
+  height:180px;
+  position: static;
+}
+
+#umbrella{
+  float: left clear;
+  width: 261.3px;
+  height: 76px;
+  position: absolute
+  
+}
+
+p.block {
+  display: block
+}
+
+.inline{
+  display: inline
+}
+
