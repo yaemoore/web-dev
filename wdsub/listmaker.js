@@ -8,7 +8,7 @@ let userInput = document.getElementById("user-input");
 let list = document.getElementById("list")
 if(document.cookie != "") loadItems();
 
-//userInput.focus()
+userInput.focus()
 
 document.addEventListener("keydown",(key) => {
   //console.log(key.code);
