@@ -1,0 +1,43 @@
+li {
+    list-style-type: none;
+}
+
+li button {
+  background-color: rgba(0,0,0,0);
+  border: 0em;
+  
+}
+
+#input-group {
+  margin: 0em;
+  text-align: center;
+}
+
+#header1 {
+  margin: 0em;
+  text-align: center;
+}
+
+#list-group {
+  border: solid black 2px;
+  border-radius: 5px;
+  text-align: center;
+  margin: auto;
+  width: 30em;
+  height: 20em;
+  overflow: auto;
+  margin-top: 10px;
+}
+
+#list {
+  text-align: left;
+}
+
+.trash {
+  display: none;
+}
+
+li:hover .trash {
+  display: inline;
+}
+
