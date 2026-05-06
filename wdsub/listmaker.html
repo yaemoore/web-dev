@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+  <title>List</title>
+  <link rel="stylesheet" href="/web-dev/wdsub/listmaker.css">
+</head>
+<body>
+  <script src="/web-dev/headerinjection.js"></script>
+<div id="header1">
+  <h1>Listing</h1>
+</div>
+
+<div id="content">
+  <div id="input-group">
+    <label for="user-input">Add item:</label>
+    <input id="user-input">
+    <button id="enter-button" onClick="addItem(event)">Enter</button>
+    <button id="clear-button" onClick="clearList(event)">Clear</button>
+  </div>
+  <div id="list-group">
+    <ul id="list">
+    </ul>
+  </div>
+</div>
+
+  <script src="listmaker.js"></script>
+</body>
