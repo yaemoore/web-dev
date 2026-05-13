@@ -1,0 +1,14 @@
+<label for="input">Enter Name:</label>
+<input id=input>
+
+<script>
+
+function nameLength(){
+  let name = document.getElementById("input").value;
+  for (let i = 0; i < name.length; i++){
+    let ltr = name.substr(i,1);
+    console.log("the next letter in your name is" + ltr);
+  }
+}
+  
+</script>
