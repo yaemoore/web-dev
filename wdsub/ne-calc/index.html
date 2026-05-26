@@ -32,17 +32,17 @@
       <br>
       
       <div>
-        <button onclick="enterMatrix(event)">Go</button>
+        <button onclick="enterMatrix()">Go</button>
       </div>
       
       
       <script>
       
-      function enterMatrix(event) {
+      function enterMatrix() {
         let stratNum1 = document.getElementById(pure-strats-one).value;
         let stratNum2 = document.getElementById(pure-strats-two).value;
         
-        navigation.navigate("matrix.html?stratNum1=" + stratNum1 + "stratNum2=" + stratNum2);
+        navigation.navigate("matrix.html?stratNum1=" + stratNum1 + "&stratNum2=" + stratNum2);
         
       }
       
