@@ -5,8 +5,8 @@
 // replace stratNum1 and stratNum2 with query parameters
 
 let queryParams = new URLSearchParams(window.location.search);
-const P1_NUM_STRATS = queryParams.get("stratNum1");
-const P2_NUM_STRATS = queryParams.get("stratNum2");
+const P1_NUM_STRATS = Number(queryParams.get("stratNum1"));
+const P2_NUM_STRATS = Number(queryParams.get("stratNum2"));
 const PAYOFF_CONTENTS = "(<input type='number'>,<input type='number'>)";
 
 
