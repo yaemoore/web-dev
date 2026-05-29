@@ -70,7 +70,7 @@ function compute() {
     
     //identify highest payoff int he column
     for (let i = 0; i < P1_NUM_STRATS; i++) {
-     if (Number(p1PayArr[P2_NUM_STRATS*i+j].value) > Number(largest)) largest = [P2_NUM_STRATS*i+j].value;
+     if (Number(p1PayArr[P2_NUM_STRATS*i+j].value) > Number(largest)) largest = p1PayArr[P2_NUM_STRATS*i+j].value;
     }
     //eliminate cells that arent the best 
     for (let i = 0; i < P1_NUM_STRATS; i++) {
